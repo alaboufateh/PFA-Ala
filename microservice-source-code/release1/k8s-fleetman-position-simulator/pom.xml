@@ -11,12 +11,18 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.7.7</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<version>2.7.7</version>		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<java.version>17</java.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <java.version>17</java.version>
+    <sonar.java.binaries>target/classes</sonar.java.binaries>
+    <sonar.projectKey>positionsimulator</sonar.projectKey>
+    <sonar.projectName>AlaDevOps-PFA</sonar.projectName>
+    <sonar.login>admin</sonar.login>
+    <sonar.password>system</sonar.password>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
